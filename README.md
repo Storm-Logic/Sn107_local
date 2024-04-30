@@ -1,0 +1,1 @@
+REGION=chr20:4000000-4500000 ./run_sn107_like_giab.sh

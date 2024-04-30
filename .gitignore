@@ -1,0 +1,46 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local virtual environments and editor/OS files
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+
+# Generated GIAB challenge/scoring artifacts.
+# These are large and reproducible with ./run_sn107_like_giab.sh.
+giab_bam/
+giab_mutated/
+giab_mutated_score/
+
+# Optional local experiment/debug outputs.
+debug_gatk/
+robustness_runs/
+tuning_runs/
+tuning_configs/
+scored_configs/
+giab_score/
+.local_sn107/
+
+# Genomics binary/output files, in case they are written outside ignored dirs.
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.bcf.csi
+*.bed
+*.summary.csv
+*.extended.csv
+*.metrics.json.gz
+*.roc.*.csv.gz
+*.runinfo.json
+
+# Keep project source/config tracked.
+!gatk.conf
